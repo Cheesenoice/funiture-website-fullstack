@@ -1,0 +1,50 @@
+<form id="upload-form">
+  <input type="file" id="file-upload" accept="image/*" />
+  <button type="submit">Upload</button>
+</form>
+
+<img id="preview" style="max-width: 300px; margin-top: 10px" />
+
+<script>
+  const form = document.getElementById("upload-form");
+  const fileInput = document.getElementById("file-upload");
+  const preview = document.getElementById("preview");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const file = fileInput.files[0];
+    if (!file) {
+      alert("Vui lòng chọn file!");
+      return;
+    }
+
+    // Kiểm tra nếu không phải hình ảnh
+    if (!file.type.startsWith("image/")) {
+      alert("Vui lòng chọn file hình ảnh!");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("upload_preset", "cmzggqqw"); // Preset unsigned
+    formData.append("folder", "furniture_products"); // Tùy chọn
+
+    try {
+      const res = await fetch(
+        "https://api.cloudinary.com/v1_1/dgxjlc8zt/image/upload",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      const data = await res.json();
+      console.log("Upload result:", data);
+      preview.src = data.secure_url;
+    } catch (error) {
+      console.error("Upload lỗi:", error);
+      alert("Upload thất bại, vui lòng thử lại!");
+    }
+  });
+</script>
