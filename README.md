@@ -3,7 +3,12 @@
 **FurnitureStore** is a modern e-commerce platform that allows users to browse, search, and purchase furniture items online conveniently and efficiently. The system is designed for both end-users (customers) and administrators, with full functionality for managing shopping carts, orders, and business reports.
 
 ---
+🎥 **Project Demo Video**  
+DEMO nhanh chức năng chính của dự án **Furniture E-commerce Website**
 
+[![Watch the demo](https://img.youtube.com/vi/t2IEb6jVnkU/0.jpg)](https://youtu.be/t2IEb6jVnkU)
+
+---
 ## Table of Contents
 
 1. [Introduction](#introduction)
