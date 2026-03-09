@@ -3,22 +3,30 @@
 **FurnitureStore** is a modern e-commerce platform that allows users to browse, search, and purchase furniture items online conveniently and efficiently. The system is designed for both end-users (customers) and administrators, with full functionality for managing shopping carts, orders, and business reports.
 
 ---
+
 🎥 **Project Demo Video**  
 DEMO nhanh chức năng chính của dự án **Furniture E-commerce Website**
 
-[![Watch the demo](https://img.youtube.com/vi/t2IEb6jVnkU/0.jpg)](https://youtu.be/t2IEb6jVnkU)
+Watch the demo: https://youtu.be/t2IEb6jVnkU
+
+📄 **Project Documents**
+
+- Report: https://drive.google.com/file/d/17F_bGY3mna2lEAw-XsPv65aAfCwnvvyW/view?usp=sharing
+- Slide: https://drive.google.com/file/d/12Zki4MTilQNdUkp7HURph7e7laReAM30/view?usp=sharing
 
 ---
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
-3. [Frontend](#frontend)
-4. [Backend](#backend)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Contributing](#contributing)
-8. [License](#license)
+3. [Project Screenshots](#project-screenshots)
+4. [Frontend](#frontend)
+5. [Backend](#backend)
+6. [Installation](#installation)
+7. [Usage](#usage)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ---
 
@@ -41,6 +49,22 @@ DEMO nhanh chức năng chính của dự án **Furniture E-commerce Website**
 - **Admin Dashboard:** Manage products, accounts, orders, and reports.
 - **Map-Based Shipping Fee:** Automatically calculate delivery fee using Map API based on distance.
 - **AI Support (Gemini):** Chatbot for assistance and product suggestions.
+
+---
+
+## Project Screenshots
+
+### Demo Clusters
+
+| Cluster       | Screenshots                                                                                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Customer Flow | <img src="github-assets/homepage.png" alt="Homepage" width="360" /> <br/> <img src="github-assets/login.png" alt="Login" width="360" /> <br/> <img src="github-assets/payment.png" alt="Checkout and Payment" width="360" /> |
+| Admin Flow    | <img src="github-assets/admin-dashboard.png" alt="Admin Dashboard" width="360" /> <br/> <img src="github-assets/product-management.png" alt="Featured Product Management" width="360" />                                     |
+| System Design | <img src="github-assets/general-usecase-diagram.png" alt="General Use Case Diagram" width="360" /> <br/> <img src="github-assets/class-diagram.png" alt="Class Diagram" width="360" />                                       |
+
+### AI Chatbot Demo
+
+<img src="github-assets/ai-chatbot-usecase.png" alt="AI Chatbot Demo" width="420" />
 
 ---
 
