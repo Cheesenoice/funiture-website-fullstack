@@ -1,5 +1,7 @@
 # FurnitureStore - E-Commerce Platform
 
+_Software Engineering course project, Semester 2, Year 3 at PTIT._
+
 **FurnitureStore** is a modern e-commerce platform that allows users to browse, search, and purchase furniture items online conveniently and efficiently. The system is designed for both end-users (customers) and administrators, with full functionality for managing shopping carts, orders, and business reports.
 
 ---
@@ -19,14 +21,15 @@ Watch the demo: https://youtu.be/t2IEb6jVnkU
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Project Screenshots](#project-screenshots)
-4. [Frontend](#frontend)
-5. [Backend](#backend)
-6. [Installation](#installation)
-7. [Usage](#usage)
-8. [Contributing](#contributing)
-9. [License](#license)
+2. [Integrated APIs](#integrated-apis)
+3. [Features](#features)
+4. [Project Screenshots](#project-screenshots)
+5. [Frontend](#frontend)
+6. [Backend](#backend)
+7. [Installation](#installation)
+8. [Usage](#usage)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ---
 
@@ -37,6 +40,16 @@ Watch the demo: https://youtu.be/t2IEb6jVnkU
 - Managing products, orders, shipping, and customer information.
 - Supporting both online payment and cash on delivery (COD).
 - Integrating AI chatbot for customer support.
+
+---
+
+## Integrated APIs
+
+| API        | Purpose                                                                      | Related Feature                    |
+| ---------- | ---------------------------------------------------------------------------- | ---------------------------------- |
+| Gemini API | Powers the AI chatbot for customer Q&A and personalized product suggestions. | AI chatbot support                 |
+| Map API    | Calculates `shipping cost fee` based on delivery distance.                   | Checkout, shipping fee calculation |
+| MoMo API   | Enables online payment via MoMo e-wallet.                                    | Payment/Checkout                   |
 
 ---
 
