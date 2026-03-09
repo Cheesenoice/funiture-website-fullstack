@@ -6,7 +6,6 @@
 🎥 **Project Demo Video**  
 DEMO nhanh chức năng chính của dự án **Furniture E-commerce Website**
 
-https://youtu.be/t2IEb6jVnkU
 [![Watch the demo](https://img.youtube.com/vi/t2IEb6jVnkU/0.jpg)](https://youtu.be/t2IEb6jVnkU)
 
 ---
